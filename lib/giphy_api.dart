@@ -22,7 +22,7 @@ class GiphyApi {
   final http.Client client;
   GiphyApi({
     required this.client,
-    this.apiKey = 'hynfPtXgNxX6hK1Jk7uFJgBGuU9rXqrj',
+    this.apiKey = 'GIPHY_API_KEY',
   });
   Future<List<GifData>> searchGifs(String query, {int offset = 0, int limit = 10}) async {
     final url = Uri.parse(
