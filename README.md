@@ -1,16 +1,17 @@
 # gif_search_app
 
-A new Flutter project.
+A Flutter 3.29.3 application that searches and displays GIFs using the Giphy API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Search GIFs by keywords
+- Trending GIFs display
+- Grid/List view toggle
+- Responsive design (works on mobile & web)
+- Error handling for network issues
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+1. Clone the repository
+2. Replace the `GIPHY_API_KEY` in `lib/giphy_api.dart` with your Giphy API key
+3. Run `flutter pub get` to install dependencies
+4. Run `flutter run` to start the app
